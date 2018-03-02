@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: voicey_development
+  pool: 5
+  username: williejohnson
+  password: cool-pass-bro
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: voicey_test
+  pool: 5
+  username: williejohnson
+  password: cool-pass-bro
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: voicey_production
+  pool: 5
+  username: williejohnson
+  password: cool-pass-bro
