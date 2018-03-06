@@ -21,6 +21,7 @@ RSpec.describe User, type: :model do
   describe "Associations" do
     it "should have many memos" do
       assoc = User.reflect_on_association(:memos)
-      expect(assoc).to eq :has_many
+      expect(assoc.macro).to eq :has_many
     end
+  end
 end
