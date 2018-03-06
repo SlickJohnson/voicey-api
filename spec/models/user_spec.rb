@@ -14,4 +14,5 @@ RSpec.describe User, type: :model do
   it "is invalid without an email" do
     bad_user = User.new(name: "Eliel", email: nil)
     expect(bad_user).to_not be_valid
+  end
 end
